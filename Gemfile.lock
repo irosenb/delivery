@@ -1,7 +1,7 @@
 PATH
   remote: ~/code/omniauth-delivery
   specs:
-    omniauth-delivery (0.0.1)
+    omniauth-delivery-food (1.0.0)
       omniauth
       omniauth-oauth2
 
@@ -147,7 +147,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   omniauth
-  omniauth-delivery!
+  omniauth-delivery-food!
   omniauth-meetup
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)

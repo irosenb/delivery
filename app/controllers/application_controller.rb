@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def create
-    puts request.env['omniauth.auth']
+    puts request.env['omniauth.auth']['info']
   end
 end
