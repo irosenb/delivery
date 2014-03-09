@@ -17,7 +17,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'omniauth'
 gem 'omniauth-meetup'
-gem 'omniauth-delivery-food', :path => "~/code/omniauth-delivery"
+gem 'omniauth-delivery-food'
 gem 'figaro'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes

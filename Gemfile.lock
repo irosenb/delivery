@@ -1,10 +1,3 @@
-PATH
-  remote: ~/code/omniauth-delivery
-  specs:
-    omniauth-delivery-food (1.0.0)
-      omniauth
-      omniauth-oauth2
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -78,6 +71,9 @@ GEM
     omniauth (1.2.1)
       hashie (>= 1.2, < 3)
       rack (~> 1.0)
+    omniauth-delivery-food (0.1.1)
+      omniauth
+      omniauth-oauth2
     omniauth-meetup (0.0.7)
       omniauth (~> 1.0)
       omniauth-oauth2 (~> 1.0)
@@ -147,7 +143,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   omniauth
-  omniauth-delivery-food!
+  omniauth-delivery-food
   omniauth-meetup
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)
